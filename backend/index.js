@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 app.use('/', routesHandler);
 
-const PORT = 4000; //backend
+const PORT = 4000; // You can change the port here
 app.listen(PORT, () => {
     console.log(`Server is running in port ${PORT}.`)
 });
